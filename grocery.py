@@ -21,7 +21,7 @@ def write_list():
 
 def print_sorted_list():
     global shopping_list                            # tells program to use global variable shopping_list defined at beginning of program
-    sorted_shopping_list = sorted(shopping_list, key = lambda kv: kv[1])      # no idea, just trying stuff
+    sorted_shopping_list = sorted(shopping_list, key = lambda kv: kv[0])      # no idea, just trying stuff
     print(sorted_shopping_list)
 
 main()
